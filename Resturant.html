@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiceVilla Restaurant</title>
+
+</head>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf3;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #c0392b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #f8e8d6;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#menu, #services, #contact {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d35400;
+}
+
+.menu-items {
+    display: flex;
+    box-shadow: #2c3e50 0px 2px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 250px;
+    max-width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.item span {
+    display: block;
+    margin-top: 10px;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+#services ul {
+    list-style: square;
+    padding-left: 40px;
+    color: #555;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+</style>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>SpiceVilla Restaurant</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Delicious Food. Cozy Vibes.</h2>
+            <p>Welcome to SpiceVilla — your destination for authentic flavors.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="item">
+                    <h3>Paneer Tikka</h3>
+                    <p>Grilled cottage cheese with spices</p>
+                    <span>₹220</span>
+                </div>
+                <div class="item">
+                    <h3>Chicken Biryani</h3>
+                    <p>Fragrant rice with marinated chicken</p>
+                    <span>₹280</span>
+                </div>
+                <div class="item">
+                    <h3>Masala Dosa</h3>
+                    <p>South Indian crepe with potato filling</p>
+                    <span>₹120</span>
+                </div>
+                <div class="item">
+                    <h3>Gulab Jamun</h3>
+                    <p>Soft milk-based dessert in sugar syrup</p>
+                    <span>₹80</span>
+                </div>
+                <div class="item">
+                    <h3>Veg Thali</h3>
+                    <p>A complete vegetarian meal platter</p>
+                    <span>₹300</span>
+                </div>  
+                <div class="item">
+                    <h3>Fish Curry</h3>
+                    <p>Spicy fish curry served with rice</p>
+                    <span>₹350</span>
+                </div>
+                <div class="item">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Warm chocolate cake with molten center</p>
+                    <span>₹150</span>
+                </div>
+                <div class="item">
+                    <h3>Masala Chai</h3>
+                    <p>Traditional Indian spiced tea</p>
+                    <span>₹50</span>
+                </div>
+                <div class="item">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>Cottage cheese in creamy tomato gravy</p>
+                    <span>₹240</span>
+                </div>
+                <div class="item">
+                    <h3>Veg Manchurian</h3>
+                    <p>Fried vegetable balls in tangy sauce</p>
+                    <span>₹180</span>
+                </div>  
+                <div class="item">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p>Grilled chicken in spicy tomato sauce</p>
+                    <span>₹300</span>
+                </div>
+                <div class="item">
+                    <h3>Butter Chicken</h3>
+                    <p>Chicken in rich butter and tomato sauce</p>
+                    <span>₹320</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Dine-In Experience</li>
+                <li>Takeaway</li>
+                <li>Home Delivery</li>
+                <li>Candle Light Dinner</li>
+                <li>Catering for Events</li>
+                <li>Online Reservations</li>
+                <li>Cooking Classes</li>
+                <li>Special Occasion Celebrations</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:support@spicevilla.in">support@spicevilla.in</a></p>
+            <p>Phone: <a href="tel:+919876543210"></a>+91 98765 43210</a></p>
+            <p>Address: 456, Flavor Street, Bengaluru, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SpiceVilla. All rights reserved.</p>
+            <p>Follow us on: <a href="https://www.facebook.com" target="_blank">Facebook</a> | <a href="https://www.instagram.com" target="_blank">Instagram</a> | <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
